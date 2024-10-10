@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Mascotas</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6; /* Fondo suave */
+        }
+        
+        header {
+            background-color: #6a5acd; /* Lila */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4169e1; /* Azul */
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #dcd0ff; /* Lila claro */
+            color: #333;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #6a5acd; /* Lila */
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        footer {
+            background-color: #4169e1; /* Azul */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Estilos para la tienda de productos */
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .producto {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+        }
+
+        .producto h3 {
+            color: #4169e1; /* Azul */
+            font-size: 18px;
+        }
+
+        .producto p {
+            color: #333;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Mascotas - Servicios y Productos</h1>
+    </header>
+
+    <nav>
+        <a href="#servicios">Centro de Autolavado</a>
+        <a href="#tienda">Tienda de Productos</a>
+    </nav>
+
+    <div class="hero" id="servicios">
+        <h2>Centro de Autolavado de Mascotas</h2>
+        <p>¡Dale a tu mascota un baño refrescante en nuestro centro de autolavado! Ofrecemos servicios de baño y limpieza, todo lo que tu mascota necesita para mantenerse limpia y feliz.</p>
+        <p>Ubicación: Calle Ejemplo #123, Ciudad</p>
+        <p>Horario: Lunes a Sábado de 9:00 am a 6:00 pm</p>
+    </div>
+
+    <section class="section" id="tienda">
+        <h2>Tienda de Productos para Mascotas</h2>
+        <p>Explora nuestra tienda para encontrar los mejores productos para tu mascota, desde juguetes hasta comida de alta calidad.</p>
+
+        <div class="productos">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x200" alt="Producto 1">
+                <h3>Comida para perros</h3>
+                <p>$15.99</p>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x200" alt="Producto 2">
+                <h3>Juguete para gatos</h3>
+                <p>$9.99</p>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x200" alt="Producto 3">
+                <h3>Cama para mascotas</h3>
+                <p>$25.99</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contacto: tienda@ejemplo.com | Tel: (555) 123-4567</p>
+    </footer>
+</body>
+</html>
